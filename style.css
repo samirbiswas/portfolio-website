@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1{
+
+    font-size: 40px;
+}
+h2{
+
+    font-size: 40px;
+}
+h3{
+color: orange;
+
+}
+span{
+
+color:#006cff;
+font-size: 40px;
+
+}
+.half-width{
+
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.facebook{
+    text-decoration: none;
+    background-color: orange;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+a:hover{
+    color: whitesmoke;
+}
+.profile-pic{
+
+    width: 100%;
+}
+
+.top-background{
+ 
+    background-image: url("images/top-banner.png");
+    background-repeat:no-repeat ;
+}
+
+section{
+
+    height: 500px;
+    padding-bottom: 150px;
+}
+.dream{
+  
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat ;
+    background-position: right;
+
+}
+.ppp{
+    margin-left: 5%;
+    text-decoration: underline;
+}
+
+.shado{
+    height: 80%;
+    
+    box-shadow: -2px 11px 33px 3px rgba(0,0,0,0.75);
+   
+}
+#border1{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red, yellow);
+    border-image-slice: 2;
+}
+
+#border2{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(55, 0, 255), rgb(173, 192, 202));
+    border-image-slice: 2;
+}
+.last-section{
+
+    
+    background-image: url("images/exp-bg.png");
+    background-repeat:no-repeat ;
+    background-position: left;
+   
+}
+footer{
+
+    text-align: center;
+}
